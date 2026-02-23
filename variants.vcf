@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##fileDate=20260223
+##source=Assignment2_GeneticVariantAnalysis
+##reference=GRCh38/hg38
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene name">
+##INFO=<ID=DISEASE,Number=1,Type=String,Description="Associated disease">
+##INFO=<ID=CLNSIG,Number=1,Type=String,Description="Clinical significance from ClinVar">
+##INFO=<ID=CLNID,Number=1,Type=String,Description="ClinVar Variation ID">
+##INFO=<ID=MUTTYPE,Number=1,Type=String,Description="Mutation type">
+##FILTER=<ID=PASS,Description="All filters passed">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+7	117548628	rs113993960	CTT	.	.	PASS	GENE=CFTR;DISEASE=Cystic_Fibrosis;CLNSIG=Pathogenic;CLNID=VCV000007107;MUTTYPE=Deletion_3bp_inframe
+11	5227002	rs334	A	T	.	PASS	GENE=HBB;DISEASE=Sickle_Cell_Anemia;CLNSIG=Pathogenic;CLNID=VCV000015280;MUTTYPE=SNV_missense
+4	3074877	rs193922927	CAG	CAGCAGCAG	.	PASS	GENE=HTT;DISEASE=Huntingtons_Disease;CLNSIG=Pathogenic;CLNID=VCV000525889;MUTTYPE=Trinucleotide_repeat_expansion
